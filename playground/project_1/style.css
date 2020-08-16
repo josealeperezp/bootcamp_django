@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+
+.darkblue{
+  background-color: #00008b;
+}
+
+#header{
+  border: 1px solid #00008b;
+  height: 30px;
+}
+
+#content{
+  border: 1px solid #00008b;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  background-color: #add8e6;
+}
+
+#internalcontent{
+  border: 1px solid #00008b;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+h1{
+  font-family: 'GNUTypewriterStandard';
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  border-spacing: 10px;
+}
+
+td{
+  width: 150px;
+  height: 300px;
+}
+
+#color1{
+  background-color: #1e1e24;
+}
+
+#color2{
+  background-color: #fb9f89;
+}
+
+#color3{
+  background-color: #c4af9a;
+}
+
+#color4{
+  background-color: #81ae9d;
+}
+
+#color5{
+  background-color: #21a179;
+}
