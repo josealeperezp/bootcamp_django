@@ -24,7 +24,7 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-    //Code Goes Here
+    return !weekday || vacation;
 }
 
 
@@ -43,6 +43,8 @@ function sleepIn(weekday, vacation) {
 
 function monkeyTrouble(aSmile, bSmile) {
     //Code Goes Here
+    return (!aSmile && !bSmile) || (aSmile && bSmile);
+
 }
 
 
@@ -59,6 +61,11 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
+  var result = "";
+  for(var i=0; i<n; i++) {
+    result +=str;
+  }
+  console.log(result);
     //Code Goes Here
 }
 
@@ -77,7 +84,17 @@ function stringTimes(str, n) {
 // luckySum(1, 13, 3) → 1
 
 function luckySum(a, b, c){
+  numbers = [a,b,c];
+  result = 0;
+  for(var i = 0; i < numbers.length; i++) {
+    if(numbers[i] != 13) {
+      result += numbers[i];
+    } else {
+      break;
+    }
+  }
 
+  console.log(result);
   //Code Goes Here
 }
 

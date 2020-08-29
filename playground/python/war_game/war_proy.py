@@ -40,7 +40,8 @@ class Deck:
     have a method for splitting/cutting the deck in half and Shuffling the deck.
     """
     def __init__(self, suite, ranks):
-        for s in suietes:
+        self.deck = []
+        for s in suite:
             for r in ranks:
                 self.deck.append((s,r))
 
@@ -65,6 +66,9 @@ class Hand:
     def __len__(self):
         return len(self.cards)
 
+    def __str__(self):
+        return str(self.cards)
+
 class Player:
     """
     This is the Player class, which takes in a name and an instance of a Hand
@@ -82,6 +86,9 @@ class Player:
 
     def has_cards(self):
         return len(self.hand)
+
+    def __str__(self):
+        return "Player Name: {}. Hand: {}".format(self.name, self.hand)
 
 ######################
 #### GAME PLAY #######

@@ -1,0 +1,5 @@
+open Bootstrap_Project_Main.html
+
+this file already have the instructions
+
+thumbnail class for images
