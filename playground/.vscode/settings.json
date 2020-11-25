@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Jose\\miniconda3\\envs\\myDjangoEnv\\python.exe"
+    "python.pythonPath": "C:\\Users\\Jose\\miniconda3\\envs\\myDjangoEnv\\python.exe",
+    "python.linting.enabled": false
 }
